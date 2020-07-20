@@ -12,9 +12,9 @@ def send_email(receiver, msg):
     
     conn.starttls()
     
-    conn.login('******@gmail.com', '********')
+    conn.login('*****@gmail.com', '*****')
     
-    conn.sendmail('*******@gmail.com', receiver, msg)
+    conn.sendmail('*****@gmail.com', receiver, msg)
     
     conn.close()
     
